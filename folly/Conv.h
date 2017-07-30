@@ -356,7 +356,7 @@ inline uint32_t digits10(uint64_t v) {
     v /= 10000U;
     result += 4;
   }
-
+  return result;
 #endif
 }
 
